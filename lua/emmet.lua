@@ -23,7 +23,8 @@ M.config = function()
       "postcss",
       "sass",
       "scss",
-      "jinja"
+      "jinja",
+      "jinja.html"
     },
     root_dir = function()
       return vim.loop.cwd()
